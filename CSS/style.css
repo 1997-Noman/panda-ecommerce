@@ -1,0 +1,20 @@
+.info-bag{
+    background-color: #FEEAE9 ;
+}
+.panda-btn-buy-now{
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+    background-image: linear-gradient(to bottom, #FF589B 0% , #ff4b92 100%);
+
+}
+.watch-bhai{
+    background-color: tomato;
+}
+.bag-bhai{
+    background-color: rgb(44, 204, 183);
+}
+.shoe-bhai{
+    background-color: rgb(183, 211, 23);
+}

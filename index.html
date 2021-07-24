@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Ecommerce</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body style="background-color: rgb(255, 255, 255);">
     <header>
         <!-- nav -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light " style="background-color: #E5E5E5;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #E5E5E5;">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="images/logo.png" alt="" class="d-inline-block align-text-top">
@@ -28,13 +29,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#Shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bagpack</a>
+                            <a class="nav-link" href="#Bagpack">Bagpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
 
 
@@ -48,7 +49,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active  ">
-                        <div class="row  bg-info bg-gradient d-flex align-items-center">
+                        <div class="row  info-bag bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>
                                     Cool Dude Headphone
@@ -61,7 +62,7 @@
                                 <h1>
                                     $500
                                 </h1>
-                                <button class="btn btn-warning">
+                                <button class="panda-btn-buy-now">
                                     Buy Now
                                 </button>
 
@@ -78,7 +79,7 @@
                     </div>
                     <div class="carousel-item ">
 
-                        <div class="row bg-info  bg-gradient d-flex align-items-center">
+                        <div class="row info-bag  bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>
                                     Mega LCD TV For Sports
@@ -90,7 +91,7 @@
                                 <h1>
                                     $1200
                                 </h1>
-                                <button class="btn btn-warning">
+                                <button class="panda-btn-buy-now">
                                     Buy Now
                                 </button>
 
@@ -103,7 +104,7 @@
 
                     </div>
                     <div class="carousel-item ">
-                        <div class="row bg-info  bg-gradient d-flex align-items-center">
+                        <div class="row info-bag  bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>
                                     X-Box for your living room
@@ -115,7 +116,7 @@
                                 <h1>
                                     $800
                                 </h1>
-                                <button class="btn btn-warning">
+                                <button class="panda-btn-buy-now">
                                     Buy Now
                                 </button>
 
@@ -147,8 +148,8 @@
 
 
             <div class="row g-4 ">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="p-3 border watch-bhai d-flex align-items-center justify-content-between rounded-3">
                         <h1 class="text-white">
                             Watch
                         </h1>
@@ -157,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="p-3 border bg-primary d-flex align-items-center justify-content-between rounded-3">
+                    <div class="p-3 border bag-bhai d-flex align-items-center justify-content-between rounded-3">
                         <h1 class="text-white">
                             Bag
                         </h1>
@@ -166,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="p-3 border bg-success d-flex align-items-center justify-content-between rounded-3">
+                    <div class="p-3 border shoe-bhai  d-flex align-items-center justify-content-between rounded-3">
                         <h1 class="text-white">
                             Watch
                         </h1>
@@ -178,9 +179,9 @@
 
             </div>
 
-
+            <!-- shoes -->
         </section>
-        <section class="container">
+        <section class="container" id="Shoes">
             <h2>
                 Shoes
             </h2>
@@ -194,7 +195,7 @@
                                 est sit aliqua dolor do amet sint.</p>
                         </div>
                         <div class="m-5">
-                            <button class="btn btn-warning">
+                            <button class="panda-btn-buy-now">
                                 Buy Now
                             </button>
                         </div>
@@ -209,7 +210,7 @@
                                 est sit aliqua dolor do amet sint.</p>
                         </div>
                         <div class="m-5">
-                            <button class="btn btn-warning">
+                            <button class="panda-btn-buy-now">
                                 Buy Now
                             </button>
                         </div>
@@ -224,7 +225,7 @@
                                 est sit aliqua dolor do amet sint.</p>
                         </div>
                         <div class="m-5">
-                            <button class="btn btn-warning">
+                            <button class="panda-btn-buy-now">
                                 Buy Now
                             </button>
                         </div>
@@ -233,7 +234,7 @@
             </div>
         </section>
         <!-- bagpack -->
-        <section class="container my-5">
+        <section class="container my-5 " id="Bagpack">
             <h2>
                 Bagpack
             </h2>
@@ -247,7 +248,7 @@
                                 est sit aliqua dolor do amet sint.</p>
                         </div>
                         <div class="m-5">
-                            <button class="btn btn-warning">
+                            <button class="panda-btn-buy-now">
                                 Buy Now
                             </button>
                         </div>
@@ -262,7 +263,7 @@
                                 est sit aliqua dolor do amet sint.</p>
                         </div>
                         <div class="m-5">
-                            <button class="btn btn-warning">
+                            <button class="panda-btn-buy-now">
                                 Buy Now
                             </button>
                         </div>
@@ -274,10 +275,11 @@
                         <div class="card-body">
                             <h5 class="card-title">Dxyizu WS54 Smart</h5>
                             <p class="card-text">Amet minim mollit non deserunt ullamco
-                                est sit aliqua dolor do amet sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis quod temporibus necessitatibus maiores iure!</p>
+                                est sit aliqua dolor do amet sint. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Esse nobis quod temporibus necessitatibus maiores iure!</p>
                         </div>
                         <div class="m-5">
-                            <button class="btn btn-warning">
+                            <button class="panda-btn-buy-now">
                                 Buy Now
                             </button>
                         </div>
@@ -285,7 +287,32 @@
                 </div>
             </div>
         </section>
+
+        <!-- Subscribe -->
+        <section style="height: 300px;" id="Subscribe"
+            class="container info-bag d-flex justify-content-center align-items-center rounded-3 ">
+            <div>
+                <h1>
+                    Lets's stay in touch
+                </h1>
+                <p>
+                    get update on sale , special and more
+                </p>
+                <input class="form-control" type="text" placeholder="your email"> <br>
+                <button class="panda-btn-buy-now">Submit</button>
+            </div>
+        </section>
+
+
     </main>
+    <footer class="my-5 text-center">
+        <p>
+            <small>
+                ©2025. Panda Commerce. All rights reserved. Abdullah, Bangladesh
+            </small>
+        </p>
+
+    </footer>
 
 
 
